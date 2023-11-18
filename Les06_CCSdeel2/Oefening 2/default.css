@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+}
+
+#header {
+    height: 300px;
+    width: 50px;
+    background-color: white;
+    padding: 5px;
+}
+
+#headeritem {
+    height: 200px;
+    width: 75px;
+    background-color: red;
+    padding: 5px;
+}
+
+#headercontent {
+    height: 100px;
+    width: 50px;
+    background-color: yellow;
+    text-align: center;
+    
+}
+
+
+    

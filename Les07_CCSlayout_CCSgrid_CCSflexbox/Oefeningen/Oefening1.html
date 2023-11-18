@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefening1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+    <style>
+        html {
+            background: url("kompas.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .label {
+            font-family: "Indie Flower", cursive;
+            font-size: 28px;
+            color: white;
+
+        }
+
+        .noord {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .oost {
+            position: absolute;
+            top: 50%;
+            right: 10px;   
+            transform: translate (0, -50%); 
+        }
+
+        .zuid{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%, 0);
+
+        }
+
+        .west {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translate(0, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="kompas"></div>
+    <div class="label noord">Noord</div>
+    <div class="label oost">Oost</div>
+    <div class="label zuid">Zuid</div>
+    <div class="label west">West</div>
+</body>
+</html>

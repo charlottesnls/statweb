@@ -1,0 +1,18 @@
+body {
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px 15px 20px 15px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+#testTitel{
+   color: darkslategray;
+}
+
+.accent{
+    font-weight: 700;
+    font-style: italic;
+}

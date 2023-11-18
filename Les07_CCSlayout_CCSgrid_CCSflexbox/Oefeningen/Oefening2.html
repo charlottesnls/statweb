@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefening2</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .grid-container {
+            display: grid;
+        }
+
+        
+
+        .grid-header {
+            grid-area: header;
+            background-color: rgb(0, 140, 255);
+        }
+
+        .grid-aside {
+            grid-area: aside;
+            background-color: rgb(1, 175, 68);
+        }
+
+        .grid-main {
+            grid-area: main;
+            background-color: black;
+        }
+
+        .grid-footer {
+            grid-area: footer;
+            background-color: rgb(230, 139, 3);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="grid-header">Header</header>
+        <aside class="grid-aside">Aside</aside>
+        <main class="grid-main">Main</main>
+        <footer class="grid-footer">Footer</footer>
+    </div>
+</body>
+</html>
